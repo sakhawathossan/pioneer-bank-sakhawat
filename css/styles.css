@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 100px;
+}
+.submit-area{
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(44, 221, 0, 0.233);
+    padding: 20px;
+
+}
+.submit-area .form-control{
+    border-radius: 0;
+    padding: 10px 10px;
+}
+
+.submit-area .btn{
+    padding: 10px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    border-radius: 0;
+}
+
+#transaction-area{
+    display: none;
+}
+.status{
+    padding: 20px 30px;
+    color: aliceblue;
+}
+
